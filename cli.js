@@ -55,7 +55,7 @@ let pkgName;
 	const pkgJson = await readPkgUp();
 	cli.input[0] ? pkgName = cli.input[0] : pkgName = pkgJson.pkg.name; // eslint-disable-line no-unused-expressions
 
-	if (!await npmName(pkgName)) {
+	if (!await npmName(pkgName)) { // eslint-disable-line no-negated-condition
 		open(`https://www.npmjs.com/${pkgName}`);
 		process.exit();
 	} else {
