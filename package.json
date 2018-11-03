@@ -1,6 +1,6 @@
 {
 	"name": "open-on-npm",
-	"version": "1.0.0-pre-release",
+	"version": "1.0.2",
 	"description": "Open npm packages on the npmjs.com registry",
 	"license": "MIT",
 	"repository": "abranhe/open-on-npm",
@@ -20,7 +20,7 @@
 		"test": "xo"
 	},
 	"files": [
-		"index.js"
+		"cli.js"
 	],
 	"keywords": [
 		"npm",
