@@ -1,0 +1,43 @@
+{
+	"name": "open-on-npm",
+	"version": "1.0.0-pre-release",
+	"description": "Open npm packages on the npmjs.com registry",
+	"license": "MIT",
+	"repository": "abranhe/open-on-npm",
+	"author": {
+		"name": "Abraham Hernandez",
+		"email": "abraham@abranhe.com",
+		"url": "abranhe.com"
+	},
+	"bin": {
+		"open-on-npm": "cli.js"
+	},
+	"bugs": {
+		"url": "https://github.com/abranhe/open-on-npm/issues"
+	},
+	"homepage": "https://projects.abranhe.com/open-on-npm",
+	"scripts": {
+		"test": "xo"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"npm",
+		"open-on-npm",
+		"open",
+		"package",
+		"npm-package"
+	],
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.23.0"
+	},
+	"dependencies": {
+		"@abranhe/feedback": "^1.1.1",
+		"meow": "^5.0.0",
+		"npm-name": "^5.0.1",
+		"opn": "^5.4.0",
+		"read-pkg-up": "^4.0.0"
+	}
+}
