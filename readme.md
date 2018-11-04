@@ -18,7 +18,7 @@
   <br>
 </p>
 
-Sometimes you want to open an **npm packages** on the registry after published, or at any time. This pretty 🖖 simple cli tool  will help you with that!
+Sometimes you want to open an **npm packages** on the registry after published, or at any time. This pretty 🖖 simple CLI tool  will help you with that! Just being in the root directory of your project you can run `open-on-npm`, it will find the information from your `package.json` and then open it on your browser.
 
 ## See
 
